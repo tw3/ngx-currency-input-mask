@@ -6,8 +6,6 @@ attribute directive to mask text in an input field.  For this particular example
 is masked to format the input display as decimals using the DecimalPipe but still maintain
 a numeric/float value in the NgModel.
 
-<iframe style="width: 100%; height: 600px" src="https://stackblitz.com/edit/angular-u2vcwn?embed=1&file=index.html" frameborder="0" allowfullscren="allowfullscren"></iframe>
-
 Here's the code running on stackblitz:
 
 https://angular-u2vcwn.stackblitz.io/
