@@ -14,7 +14,7 @@ You can fork and make edits here:
 
 https://stackblitz.com/edit/angular-u2vcwn?file=index.html
 
-Of course you can also clone this project and run/edit it locally as described below.
+Of course you can also clone this project and run or edit it locally as described below.
 
 ## Development server
 
