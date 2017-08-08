@@ -28,7 +28,7 @@ Navigate to `http://localhost:4200/`
 
 The app will automatically reload if you change any of the source files.
 
-# Related projects
+## Related projects
 
 * [Text Mask](https://github.com/text-mask/text-mask) (does not automatically unmask the value)
 * [Autonumeric](https://github.com/autoNumeric/autoNumeric)
