@@ -55,8 +55,10 @@ export class CurrencyInputMaskDirective implements ControlValueAccessor, OnInit 
     // Restrict characters
     const newChar: string = String.fromCharCode(event.which);
     const allowedChars: RegExp = /^[\d.]+$/;
+    var theEvent = event.htmlEvent || window.event;
     if (!allowedChars.test(newChar)) {
-      event.preventDefault();
+       if (theEvent.preventDefault)
+        theEvent.preventDefault();
       return;
     }
     // Handle decimal mark input
