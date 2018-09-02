@@ -53,7 +53,13 @@ export class CurrencyInputMaskDirective implements ControlValueAccessor, OnInit 
   @HostListener('keypress', ['$event'])
   handleKeypress(event: any) {
     // Restrict characters
-    const newChar: string = String.fromCharCode(event.which);
+    const charCode: number = event.which;
+    const isControlChar: boolean = (charCode <= 31);
+    if (isControlChar) {
+      // Allow control characters like backspace, move up, move down, etc.
+      return;
+    }
+    const newChar: string = String.fromCharCode(charCode);
     const allowedChars: RegExp = /^[\d.]+$/;
     if (!allowedChars.test(newChar)) {
       event.preventDefault();
