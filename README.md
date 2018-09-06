@@ -6,11 +6,7 @@ attribute directive to mask text in an input field.  For this particular example
 is masked to format the input display as decimals using the DecimalPipe but still maintain
 a numeric/float value in the NgModel.
 
-Here's the code running on stackblitz:
-
-https://kkvijvmg.github.stackblitz.io
-
-You can fork and make edits here:
+Here's the editable code running on stackblitz:
 
 https://stackblitz.com/github/tw3/ngx-currency-input-mask
 
