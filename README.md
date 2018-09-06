@@ -8,11 +8,11 @@ a numeric/float value in the NgModel.
 
 Here's the code running on stackblitz:
 
-https://angular-u2vcwn.stackblitz.io/
+https://kkvijvmg.github.stackblitz.io
 
 You can fork and make edits here:
 
-https://stackblitz.com/edit/angular-u2vcwn?file=app%2Fcurrency-input-mask%2Fcurrency-input-mask.directive.ts
+https://stackblitz.com/github/tw3/ngx-currency-input-mask
 
 Of course you can also clone this project and run or edit it locally as described below.
 
